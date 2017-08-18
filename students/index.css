@@ -25,15 +25,55 @@ h1, h2, h3{
 
 img {
 	height: 200px;
-	border: 2px solid #ccff66;
+	border: 1px solid gray;
+	border-radius: 50%;
 }
 
 button {
 	height: 30px;
 	font-size: 20px;
-	width: 200px;
+	width: 150px;
 	border-radius: 10px;
 	background-color: #ccff66;
 	color: #262626;
 
+}
+
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.student_image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ccff66;
+}
+
+.container:hover .overlay {
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+.text {
+  color: #262626;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
