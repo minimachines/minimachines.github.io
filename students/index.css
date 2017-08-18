@@ -5,23 +5,9 @@ body {
     font-size: 20px;
 }
 
-input {
-	height: 30px;
-	width: 200px;
-	font-size: 20px;
-	text-align: center;
-}
-
-#submit {
-	height: 50px;
-	width: 50px;
-	border-radius: 50px;
-}
-
 h1, h2, h3{
 	color: #ccff66;
 }
-
 
 #main {
 	width: 80%;
@@ -31,13 +17,23 @@ h1, h2, h3{
 	padding: 30px;
 }
 
-#skeletons {
-	text-align: left;
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-#student {
+img {
+	height: 200px;
+	border: 2px solid #ccff66;
+}
+
+button {
 	height: 30px;
+	font-size: 20px;
 	width: 200px;
 	border-radius: 10px;
-	font-size: 20px;
+	background-color: #ccff66;
+	color: #262626;
+
 }

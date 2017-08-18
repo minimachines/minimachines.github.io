@@ -5,6 +5,7 @@
 	window.onload = function() {
 		$("skeleton").onclick = skeleton;
 		$("css").onclick = css;
+		$("student").onclick = student;
 	}
 
 	function skeleton() {
@@ -13,5 +14,9 @@
 
 	function css() {
 		window.open("css.html");
+	}
+
+	function student() {
+		window.open("students/students.html");
 	}
 })();
