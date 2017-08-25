@@ -5,7 +5,7 @@
 	window.onload = function() {
 		$("theo").onclick = theo;
 		$("sekoy").onclick = sekoy;
-		$("idtech").onclick = iDTech;
+		$("danitah").onclick = danitah;
 	}
 
 	// Leads to Theo's work
@@ -18,8 +18,8 @@
 		window.open("sekoy/sekoy.html");
 	}
 
-	function iDTech() {
-		window.open("https://www.idtech.com/");
+	function danitah() {
+		window.open("alexa/danitah/alll about me .html");
 	}
 
 })();
