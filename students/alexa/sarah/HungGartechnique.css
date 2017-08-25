@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color:crimson;
+}
+h1,h2{
+    text-align: center
+        
+}
+body{
+    background-image:url("http://images.gofreedownload.net/2/traditional-chinese-cloud-pattern-shading-design-background-46909.jpg")
+}
+#div8,#div9,#div10,#div11,#div12{
+    background-color: white;
+}
+
+#main {
+    width: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}

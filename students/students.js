@@ -11,6 +11,7 @@
 		$("khalina").onclick = khalina;
 		$("chelsea").onclick = chelsea;
 		$("laura").onclick = laura;
+		$("sarah").onclick = sarah;
 	}
 
 	// Leads to Theo's work
@@ -45,5 +46,9 @@
 
 	function laura() {
 		window.open("alexa/laura/laura.html");
+	}
+
+	function sarah() {
+		window.open("alexa/sarah/sarah.html");
 	}
 })();
