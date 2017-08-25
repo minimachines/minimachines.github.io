@@ -1,0 +1,53 @@
+body {
+	background-image : url("http://cdn.wallpapersafari.com/53/4/y5Qug6.jpg");
+    font-family: cursive ;
+    text-align: center;
+}
+
+
+#img1 {
+    width: 300px; height: 400px
+}
+
+#img2 {
+    width: 400px; height: 280px
+}
+
+h1 {
+    color: blueviolet;
+}
+
+span{
+    font-family: inherit;
+    font-size: 25px;
+}
+
+#span2{
+    color: green
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}

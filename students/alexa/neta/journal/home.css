@@ -1,0 +1,38 @@
+body {
+	background-image : url("http://www.graphicsfuel.com/wp-content/uploads/2011/10/subtle-grunge01-preview.jpg");
+    font-family: cursive ;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: blue;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: mintcream;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
