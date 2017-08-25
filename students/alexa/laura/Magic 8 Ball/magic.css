@@ -1,0 +1,44 @@
+body{
+    background-image: url("http://www.wnyc.org/i/1200/627/80/photologue/photos/card_catalogue_wallpaper.jpg");
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    
+    text-align: center
+    color: white
+    font-family: fantasy;
+}
+
+
+
+
+
+/* -----CODE UNDER HERE IS FOR NAVIGATION BAR----------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: darkgray;
+}

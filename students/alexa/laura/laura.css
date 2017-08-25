@@ -1,0 +1,21 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9vZuLmoyMc7k0Sa0FMFAZKGd1rZIy1xzG7rkVITtK6mreQ8TK");
+      color: black;
+    text-align: center;
+   
+    
+    font-family: sans-serif;
+}
+h2{
+      text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+    
+}

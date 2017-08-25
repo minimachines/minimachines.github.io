@@ -9,6 +9,8 @@
 		$("amyah").onclick = amyah;
 		$("larina").onclick = larina;
 		$("khalina").onclick = khalina;
+		$("chelsea").onclick = chelsea;
+		$("laura").onclick = laura;
 	}
 
 	// Leads to Theo's work
@@ -37,4 +39,11 @@
 		window.open("alexa/khalina/khalina.html");
 	}
 
+	function chelsea() {
+		window.open("alexa/chelsea/beach.html");
+	}
+
+	function laura() {
+		window.open("alexa/laura/laura.html");
+	}
 })();
